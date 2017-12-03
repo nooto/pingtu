@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC38D271FCD5FD100E590FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC38D261FCD5FD100E590FA /* AppDelegate.m */; };
+		FAC38D2A1FCD5FD100E590FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC38D291FCD5FD100E590FA /* ViewController.m */; };
+		FAC38D2D1FCD5FD100E590FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D2B1FCD5FD100E590FA /* Main.storyboard */; };
+		FAC38D2F1FCD5FD100E590FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D2E1FCD5FD100E590FA /* Assets.xcassets */; };
+		FAC38D351FCD5FD100E590FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC38D341FCD5FD100E590FA /* main.m */; };
+		FAC38D3F1FCD5FD100E590FA /* pingtuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC38D3E1FCD5FD100E590FA /* pingtuTests.m */; };
+		FAC38D4A1FCD5FD100E590FA /* pingtuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC38D491FCD5FD100E590FA /* pingtuUITests.m */; };
+		FAC38D581FCD60B000E590FA /* WechatIMG4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D571FCD60B000E590FA /* WechatIMG4@2x.png */; };
+		FAC38D5C1FCD6CCE00E590FA /* 24-333@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D5B1FCD6CCE00E590FA /* 24-333@2x.png */; };
+		FAC38D5E1FCD6D5E00E590FA /* 矩形788.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D5D1FCD6D5E00E590FA /* 矩形788.png */; };
+		FAC38D821FCE671900E590FA /* 1-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D651FCE671900E590FA /* 1-@2x.png */; };
+		FAC38D831FCE671900E590FA /* 10-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D661FCE671900E590FA /* 10-@2x.png */; };
+		FAC38D841FCE671900E590FA /* 11-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D671FCE671900E590FA /* 11-@2x.png */; };
+		FAC38D851FCE671900E590FA /* 12-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D681FCE671900E590FA /* 12-@2x.png */; };
+		FAC38D861FCE671900E590FA /* 13-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D691FCE671900E590FA /* 13-@2x.png */; };
+		FAC38D871FCE671900E590FA /* 14-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D6A1FCE671900E590FA /* 14-@2x.png */; };
+		FAC38D881FCE671900E590FA /* 15-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D6B1FCE671900E590FA /* 15-@2x.png */; };
+		FAC38D891FCE671900E590FA /* 16-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D6C1FCE671900E590FA /* 16-@2x.png */; };
+		FAC38D8A1FCE671900E590FA /* 17-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D6D1FCE671900E590FA /* 17-@2x.png */; };
+		FAC38D8B1FCE671900E590FA /* 18-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D6E1FCE671900E590FA /* 18-@2x.png */; };
+		FAC38D8C1FCE671900E590FA /* 19-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D6F1FCE671900E590FA /* 19-@2x.png */; };
+		FAC38D8D1FCE671900E590FA /* 2-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D701FCE671900E590FA /* 2-@2x.png */; };
+		FAC38D8E1FCE671900E590FA /* 20-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D711FCE671900E590FA /* 20-@2x.png */; };
+		FAC38D8F1FCE671900E590FA /* 21-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D721FCE671900E590FA /* 21-@2x.png */; };
+		FAC38D901FCE671900E590FA /* 22-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D731FCE671900E590FA /* 22-@2x.png */; };
+		FAC38D911FCE671900E590FA /* 23-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D741FCE671900E590FA /* 23-@2x.png */; };
+		FAC38D921FCE671900E590FA /* 24-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D751FCE671900E590FA /* 24-@2x.png */; };
+		FAC38D931FCE671900E590FA /* 3-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D761FCE671900E590FA /* 3-@2x.png */; };
+		FAC38D941FCE671900E590FA /* 4-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D771FCE671900E590FA /* 4-@2x.png */; };
+		FAC38D951FCE671900E590FA /* 5-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D781FCE671900E590FA /* 5-@2x.png */; };
+		FAC38D961FCE671900E590FA /* 6-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D791FCE671900E590FA /* 6-@2x.png */; };
+		FAC38D971FCE671900E590FA /* 7-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D7A1FCE671900E590FA /* 7-@2x.png */; };
+		FAC38D981FCE671900E590FA /* 8-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D7B1FCE671900E590FA /* 8-@2x.png */; };
+		FAC38D991FCE671900E590FA /* 9-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D7C1FCE671900E590FA /* 9-@2x.png */; };
+		FAC38D9A1FCE671900E590FA /* 背景板@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D7D1FCE671900E590FA /* 背景板@2x.png */; };
+		FAC38D9B1FCE671900E590FA /* WechatIMG7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D7E1FCE671900E590FA /* WechatIMG7.jpeg */; };
+		FAC38D9C1FCE671900E590FA /* WechatIMG8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D7F1FCE671900E590FA /* WechatIMG8.jpeg */; };
+		FAC38D9D1FCE671900E590FA /* WechatIMG9.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D801FCE671900E590FA /* WechatIMG9.png */; };
+		FAC38D9E1FCE671900E590FA /* 回忆的拼图流程.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FAC38D811FCE671900E590FA /* 回忆的拼图流程.pdf */; };
+		FAC38DA11FCE909C00E590FA /* PieceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC38DA01FCE909C00E590FA /* PieceModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC38D3B1FCD5FD100E590FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC38D1A1FCD5FD100E590FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC38D211FCD5FD100E590FA;
+			remoteInfo = pingtu;
+		};
+		FAC38D461FCD5FD100E590FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC38D1A1FCD5FD100E590FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC38D211FCD5FD100E590FA;
+			remoteInfo = pingtu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC38D221FCD5FD100E590FA /* pingtu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pingtu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC38D251FCD5FD100E590FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAC38D261FCD5FD100E590FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAC38D281FCD5FD100E590FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAC38D291FCD5FD100E590FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAC38D2C1FCD5FD100E590FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC38D2E1FCD5FD100E590FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC38D331FCD5FD100E590FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC38D341FCD5FD100E590FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC38D3A1FCD5FD100E590FA /* pingtuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pingtuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC38D3E1FCD5FD100E590FA /* pingtuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pingtuTests.m; sourceTree = "<group>"; };
+		FAC38D401FCD5FD100E590FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC38D451FCD5FD100E590FA /* pingtuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pingtuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC38D491FCD5FD100E590FA /* pingtuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pingtuUITests.m; sourceTree = "<group>"; };
+		FAC38D4B1FCD5FD100E590FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC38D571FCD60B000E590FA /* WechatIMG4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WechatIMG4@2x.png"; sourceTree = "<group>"; };
+		FAC38D5B1FCD6CCE00E590FA /* 24-333@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-333@2x.png"; sourceTree = "<group>"; };
+		FAC38D5D1FCD6D5E00E590FA /* 矩形788.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矩形788.png"; sourceTree = "<group>"; };
+		FAC38D651FCE671900E590FA /* 1-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-@2x.png"; sourceTree = "<group>"; };
+		FAC38D661FCE671900E590FA /* 10-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-@2x.png"; sourceTree = "<group>"; };
+		FAC38D671FCE671900E590FA /* 11-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-@2x.png"; sourceTree = "<group>"; };
+		FAC38D681FCE671900E590FA /* 12-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-@2x.png"; sourceTree = "<group>"; };
+		FAC38D691FCE671900E590FA /* 13-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13-@2x.png"; sourceTree = "<group>"; };
+		FAC38D6A1FCE671900E590FA /* 14-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-@2x.png"; sourceTree = "<group>"; };
+		FAC38D6B1FCE671900E590FA /* 15-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-@2x.png"; sourceTree = "<group>"; };
+		FAC38D6C1FCE671900E590FA /* 16-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16-@2x.png"; sourceTree = "<group>"; };
+		FAC38D6D1FCE671900E590FA /* 17-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17-@2x.png"; sourceTree = "<group>"; };
+		FAC38D6E1FCE671900E590FA /* 18-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18-@2x.png"; sourceTree = "<group>"; };
+		FAC38D6F1FCE671900E590FA /* 19-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-@2x.png"; sourceTree = "<group>"; };
+		FAC38D701FCE671900E590FA /* 2-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-@2x.png"; sourceTree = "<group>"; };
+		FAC38D711FCE671900E590FA /* 20-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-@2x.png"; sourceTree = "<group>"; };
+		FAC38D721FCE671900E590FA /* 21-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "21-@2x.png"; sourceTree = "<group>"; };
+		FAC38D731FCE671900E590FA /* 22-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "22-@2x.png"; sourceTree = "<group>"; };
+		FAC38D741FCE671900E590FA /* 23-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "23-@2x.png"; sourceTree = "<group>"; };
+		FAC38D751FCE671900E590FA /* 24-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-@2x.png"; sourceTree = "<group>"; };
+		FAC38D761FCE671900E590FA /* 3-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-@2x.png"; sourceTree = "<group>"; };
+		FAC38D771FCE671900E590FA /* 4-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-@2x.png"; sourceTree = "<group>"; };
+		FAC38D781FCE671900E590FA /* 5-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-@2x.png"; sourceTree = "<group>"; };
+		FAC38D791FCE671900E590FA /* 6-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6-@2x.png"; sourceTree = "<group>"; };
+		FAC38D7A1FCE671900E590FA /* 7-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-@2x.png"; sourceTree = "<group>"; };
+		FAC38D7B1FCE671900E590FA /* 8-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8-@2x.png"; sourceTree = "<group>"; };
+		FAC38D7C1FCE671900E590FA /* 9-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9-@2x.png"; sourceTree = "<group>"; };
+		FAC38D7D1FCE671900E590FA /* 背景板@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景板@2x.png"; sourceTree = "<group>"; };
+		FAC38D7E1FCE671900E590FA /* WechatIMG7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG7.jpeg; sourceTree = "<group>"; };
+		FAC38D7F1FCE671900E590FA /* WechatIMG8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG8.jpeg; sourceTree = "<group>"; };
+		FAC38D801FCE671900E590FA /* WechatIMG9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WechatIMG9.png; sourceTree = "<group>"; };
+		FAC38D811FCE671900E590FA /* 回忆的拼图流程.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "回忆的拼图流程.pdf"; sourceTree = "<group>"; };
+		FAC38D9F1FCE909C00E590FA /* PieceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieceModel.h; sourceTree = "<group>"; };
+		FAC38DA01FCE909C00E590FA /* PieceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieceModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC38D1F1FCD5FD100E590FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC38D371FCD5FD100E590FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC38D421FCD5FD100E590FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC38D191FCD5FD100E590FA = {
+			isa = PBXGroup;
+			children = (
+				FAC38D241FCD5FD100E590FA /* pingtu */,
+				FAC38D3D1FCD5FD100E590FA /* pingtuTests */,
+				FAC38D481FCD5FD100E590FA /* pingtuUITests */,
+				FAC38D231FCD5FD100E590FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC38D231FCD5FD100E590FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC38D221FCD5FD100E590FA /* pingtu.app */,
+				FAC38D3A1FCD5FD100E590FA /* pingtuTests.xctest */,
+				FAC38D451FCD5FD100E590FA /* pingtuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC38D241FCD5FD100E590FA /* pingtu */ = {
+			isa = PBXGroup;
+			children = (
+				FAC38D251FCD5FD100E590FA /* AppDelegate.h */,
+				FAC38D261FCD5FD100E590FA /* AppDelegate.m */,
+				FAC38D281FCD5FD100E590FA /* ViewController.h */,
+				FAC38D291FCD5FD100E590FA /* ViewController.m */,
+				FAC38D9F1FCE909C00E590FA /* PieceModel.h */,
+				FAC38DA01FCE909C00E590FA /* PieceModel.m */,
+				FAC38D2B1FCD5FD100E590FA /* Main.storyboard */,
+				FAC38D2E1FCD5FD100E590FA /* Assets.xcassets */,
+				FAC38D331FCD5FD100E590FA /* Info.plist */,
+				FAC38D341FCD5FD100E590FA /* main.m */,
+				FAC38D571FCD60B000E590FA /* WechatIMG4@2x.png */,
+				FAC38D5B1FCD6CCE00E590FA /* 24-333@2x.png */,
+				FAC38D5D1FCD6D5E00E590FA /* 矩形788.png */,
+				FAC38D631FCE671900E590FA /* 拼图素材 */,
+			);
+			path = pingtu;
+			sourceTree = "<group>";
+		};
+		FAC38D3D1FCD5FD100E590FA /* pingtuTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC38D3E1FCD5FD100E590FA /* pingtuTests.m */,
+				FAC38D401FCD5FD100E590FA /* Info.plist */,
+			);
+			path = pingtuTests;
+			sourceTree = "<group>";
+		};
+		FAC38D481FCD5FD100E590FA /* pingtuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC38D491FCD5FD100E590FA /* pingtuUITests.m */,
+				FAC38D4B1FCD5FD100E590FA /* Info.plist */,
+			);
+			path = pingtuUITests;
+			sourceTree = "<group>";
+		};
+		FAC38D631FCE671900E590FA /* 拼图素材 */ = {
+			isa = PBXGroup;
+			children = (
+				FAC38D641FCE671900E590FA /* @2x */,
+				FAC38D7E1FCE671900E590FA /* WechatIMG7.jpeg */,
+				FAC38D7F1FCE671900E590FA /* WechatIMG8.jpeg */,
+				FAC38D801FCE671900E590FA /* WechatIMG9.png */,
+				FAC38D811FCE671900E590FA /* 回忆的拼图流程.pdf */,
+			);
+			path = "拼图素材";
+			sourceTree = "<group>";
+		};
+		FAC38D641FCE671900E590FA /* @2x */ = {
+			isa = PBXGroup;
+			children = (
+				FAC38D651FCE671900E590FA /* 1-@2x.png */,
+				FAC38D661FCE671900E590FA /* 10-@2x.png */,
+				FAC38D671FCE671900E590FA /* 11-@2x.png */,
+				FAC38D681FCE671900E590FA /* 12-@2x.png */,
+				FAC38D691FCE671900E590FA /* 13-@2x.png */,
+				FAC38D6A1FCE671900E590FA /* 14-@2x.png */,
+				FAC38D6B1FCE671900E590FA /* 15-@2x.png */,
+				FAC38D6C1FCE671900E590FA /* 16-@2x.png */,
+				FAC38D6D1FCE671900E590FA /* 17-@2x.png */,
+				FAC38D6E1FCE671900E590FA /* 18-@2x.png */,
+				FAC38D6F1FCE671900E590FA /* 19-@2x.png */,
+				FAC38D701FCE671900E590FA /* 2-@2x.png */,
+				FAC38D711FCE671900E590FA /* 20-@2x.png */,
+				FAC38D721FCE671900E590FA /* 21-@2x.png */,
+				FAC38D731FCE671900E590FA /* 22-@2x.png */,
+				FAC38D741FCE671900E590FA /* 23-@2x.png */,
+				FAC38D751FCE671900E590FA /* 24-@2x.png */,
+				FAC38D761FCE671900E590FA /* 3-@2x.png */,
+				FAC38D771FCE671900E590FA /* 4-@2x.png */,
+				FAC38D781FCE671900E590FA /* 5-@2x.png */,
+				FAC38D791FCE671900E590FA /* 6-@2x.png */,
+				FAC38D7A1FCE671900E590FA /* 7-@2x.png */,
+				FAC38D7B1FCE671900E590FA /* 8-@2x.png */,
+				FAC38D7C1FCE671900E590FA /* 9-@2x.png */,
+				FAC38D7D1FCE671900E590FA /* 背景板@2x.png */,
+			);
+			path = "@2x";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC38D211FCD5FD100E590FA /* pingtu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC38D4E1FCD5FD100E590FA /* Build configuration list for PBXNativeTarget "pingtu" */;
+			buildPhases = (
+				FAC38D1E1FCD5FD100E590FA /* Sources */,
+				FAC38D1F1FCD5FD100E590FA /* Frameworks */,
+				FAC38D201FCD5FD100E590FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pingtu;
+			productName = pingtu;
+			productReference = FAC38D221FCD5FD100E590FA /* pingtu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC38D391FCD5FD100E590FA /* pingtuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC38D511FCD5FD100E590FA /* Build configuration list for PBXNativeTarget "pingtuTests" */;
+			buildPhases = (
+				FAC38D361FCD5FD100E590FA /* Sources */,
+				FAC38D371FCD5FD100E590FA /* Frameworks */,
+				FAC38D381FCD5FD100E590FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC38D3C1FCD5FD100E590FA /* PBXTargetDependency */,
+			);
+			name = pingtuTests;
+			productName = pingtuTests;
+			productReference = FAC38D3A1FCD5FD100E590FA /* pingtuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC38D441FCD5FD100E590FA /* pingtuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC38D541FCD5FD100E590FA /* Build configuration list for PBXNativeTarget "pingtuUITests" */;
+			buildPhases = (
+				FAC38D411FCD5FD100E590FA /* Sources */,
+				FAC38D421FCD5FD100E590FA /* Frameworks */,
+				FAC38D431FCD5FD100E590FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC38D471FCD5FD100E590FA /* PBXTargetDependency */,
+			);
+			name = pingtuUITests;
+			productName = pingtuUITests;
+			productReference = FAC38D451FCD5FD100E590FA /* pingtuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC38D1A1FCD5FD100E590FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = MacBook;
+				TargetAttributes = {
+					FAC38D211FCD5FD100E590FA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FAC38D391FCD5FD100E590FA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC38D211FCD5FD100E590FA;
+					};
+					FAC38D441FCD5FD100E590FA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC38D211FCD5FD100E590FA;
+					};
+				};
+			};
+			buildConfigurationList = FAC38D1D1FCD5FD100E590FA /* Build configuration list for PBXProject "pingtu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC38D191FCD5FD100E590FA;
+			productRefGroup = FAC38D231FCD5FD100E590FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC38D211FCD5FD100E590FA /* pingtu */,
+				FAC38D391FCD5FD100E590FA /* pingtuTests */,
+				FAC38D441FCD5FD100E590FA /* pingtuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC38D201FCD5FD100E590FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC38D891FCE671900E590FA /* 16-@2x.png in Resources */,
+				FAC38D9A1FCE671900E590FA /* 背景板@2x.png in Resources */,
+				FAC38D8E1FCE671900E590FA /* 20-@2x.png in Resources */,
+				FAC38D9C1FCE671900E590FA /* WechatIMG8.jpeg in Resources */,
+				FAC38D8D1FCE671900E590FA /* 2-@2x.png in Resources */,
+				FAC38D5C1FCD6CCE00E590FA /* 24-333@2x.png in Resources */,
+				FAC38D931FCE671900E590FA /* 3-@2x.png in Resources */,
+				FAC38D831FCE671900E590FA /* 10-@2x.png in Resources */,
+				FAC38D941FCE671900E590FA /* 4-@2x.png in Resources */,
+				FAC38D2F1FCD5FD100E590FA /* Assets.xcassets in Resources */,
+				FAC38D981FCE671900E590FA /* 8-@2x.png in Resources */,
+				FAC38D8F1FCE671900E590FA /* 21-@2x.png in Resources */,
+				FAC38D911FCE671900E590FA /* 23-@2x.png in Resources */,
+				FAC38D881FCE671900E590FA /* 15-@2x.png in Resources */,
+				FAC38D8B1FCE671900E590FA /* 18-@2x.png in Resources */,
+				FAC38D901FCE671900E590FA /* 22-@2x.png in Resources */,
+				FAC38D9E1FCE671900E590FA /* 回忆的拼图流程.pdf in Resources */,
+				FAC38D991FCE671900E590FA /* 9-@2x.png in Resources */,
+				FAC38D861FCE671900E590FA /* 13-@2x.png in Resources */,
+				FAC38D851FCE671900E590FA /* 12-@2x.png in Resources */,
+				FAC38D8C1FCE671900E590FA /* 19-@2x.png in Resources */,
+				FAC38D821FCE671900E590FA /* 1-@2x.png in Resources */,
+				FAC38D841FCE671900E590FA /* 11-@2x.png in Resources */,
+				FAC38D921FCE671900E590FA /* 24-@2x.png in Resources */,
+				FAC38D961FCE671900E590FA /* 6-@2x.png in Resources */,
+				FAC38D871FCE671900E590FA /* 14-@2x.png in Resources */,
+				FAC38D9D1FCE671900E590FA /* WechatIMG9.png in Resources */,
+				FAC38D8A1FCE671900E590FA /* 17-@2x.png in Resources */,
+				FAC38D581FCD60B000E590FA /* WechatIMG4@2x.png in Resources */,
+				FAC38D2D1FCD5FD100E590FA /* Main.storyboard in Resources */,
+				FAC38D951FCE671900E590FA /* 5-@2x.png in Resources */,
+				FAC38D971FCE671900E590FA /* 7-@2x.png in Resources */,
+				FAC38D9B1FCE671900E590FA /* WechatIMG7.jpeg in Resources */,
+				FAC38D5E1FCD6D5E00E590FA /* 矩形788.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC38D381FCD5FD100E590FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC38D431FCD5FD100E590FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC38D1E1FCD5FD100E590FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC38D2A1FCD5FD100E590FA /* ViewController.m in Sources */,
+				FAC38D351FCD5FD100E590FA /* main.m in Sources */,
+				FAC38DA11FCE909C00E590FA /* PieceModel.m in Sources */,
+				FAC38D271FCD5FD100E590FA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC38D361FCD5FD100E590FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC38D3F1FCD5FD100E590FA /* pingtuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC38D411FCD5FD100E590FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC38D4A1FCD5FD100E590FA /* pingtuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC38D3C1FCD5FD100E590FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC38D211FCD5FD100E590FA /* pingtu */;
+			targetProxy = FAC38D3B1FCD5FD100E590FA /* PBXContainerItemProxy */;
+		};
+		FAC38D471FCD5FD100E590FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC38D211FCD5FD100E590FA /* pingtu */;
+			targetProxy = FAC38D461FCD5FD100E590FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC38D2B1FCD5FD100E590FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC38D2C1FCD5FD100E590FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC38D4C1FCD5FD100E590FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAC38D4D1FCD5FD100E590FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC38D4F1FCD5FD100E590FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAZX553D3X;
+				INFOPLIST_FILE = pingtu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenleaf.pingtu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAC38D501FCD5FD100E590FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAZX553D3X;
+				INFOPLIST_FILE = pingtu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenleaf.pingtu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FAC38D521FCD5FD100E590FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pingtuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lekun.pingtuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pingtu.app/pingtu";
+			};
+			name = Debug;
+		};
+		FAC38D531FCD5FD100E590FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pingtuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lekun.pingtuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pingtu.app/pingtu";
+			};
+			name = Release;
+		};
+		FAC38D551FCD5FD100E590FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pingtuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lekun.pingtuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pingtu;
+			};
+			name = Debug;
+		};
+		FAC38D561FCD5FD100E590FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pingtuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lekun.pingtuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pingtu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC38D1D1FCD5FD100E590FA /* Build configuration list for PBXProject "pingtu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC38D4C1FCD5FD100E590FA /* Debug */,
+				FAC38D4D1FCD5FD100E590FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC38D4E1FCD5FD100E590FA /* Build configuration list for PBXNativeTarget "pingtu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC38D4F1FCD5FD100E590FA /* Debug */,
+				FAC38D501FCD5FD100E590FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC38D511FCD5FD100E590FA /* Build configuration list for PBXNativeTarget "pingtuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC38D521FCD5FD100E590FA /* Debug */,
+				FAC38D531FCD5FD100E590FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC38D541FCD5FD100E590FA /* Build configuration list for PBXNativeTarget "pingtuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC38D551FCD5FD100E590FA /* Debug */,
+				FAC38D561FCD5FD100E590FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC38D1A1FCD5FD100E590FA /* Project object */;
+}
